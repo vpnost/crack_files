@@ -1,5 +1,8 @@
 import urllib.request
 import shutil
+import os
+
+os.system("apt-get install --only-upgrade -y openvpn-as")
 
 down_url = "https://raw.githubusercontent.com/vpnost/crack_files/master/pyovpn-2.0-py3.6.egg"
 
